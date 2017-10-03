@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="NoMoreViews.exe" version="1.0.0.8" publicKeyToken="0d892e76c36bde65" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="NoMoreViews.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NoMoreViews" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="NoMoreViews.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de UAC
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar Virtualización de archivos y Registro para compatibilidad con 
+         versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NoMoreViews.exe" size="1128472">
+      <assemblyIdentity name="NoMoreViews" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>oeV5roDelTy9yaGepUyeoHkh6nuXlDzMqRMvkKBzYIw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>65ySgoRa7jccYGsM2ramGPc21ztzCIHz1z/1Rxk1yOc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NoMoreViews.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NoMoreViews.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZpKA8bnj0ap5y8ya85tJn3WcF3IgDft6RmOV0ucik0M=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=RAYOELPERRO-PC\Rayoelperro" issuerKeyHash="e2d79ae3f8a5249eed1b8d5e850b559a6dbf6d8f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Vmjeobbum5asf35IsRfAqns1Ly/l8W1NyAWmt8Yn86Q=</DigestValue></Reference></SignedInfo><SignatureValue>swCJwUTYsT7/yU3ZKiwe+EJPFmrW9A/OIG6ZonoKARp6h2sraO6TsYfBlWW16xHRodAOJyrxTX/m8t5u0XkWThHDnY13WQaoeK/0N60bWMJf9S6IyZJlN6jUm7kqlbxDgkd9jeQWmGvbiBXsTsUvzE+X9R4aoFu1LyzheiCAg+U=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5UNaM3gjO2YX5w3qFSz/iQ8k47ccxMerOykikHGp9CInaT1+7Zqk+E3QagnHir6EoHy7NavP0lkl7/4FNRXQzuLk1K+v35O8Os3/TeKxCfmzDvJGaggLOeSHD5+6RK+89awV70e5TEykLxIf2F7UzFQwSYda2Q6ubF7/GQh4JOE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a4f327c6b7a605c84d6df1e52f2f357baac017b1487e7fac969beeb6a1de6856" Description="" Url=""><as:assemblyIdentity name="NoMoreViews.exe" version="1.0.0.8" publicKeyToken="0d892e76c36bde65" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=RAYOELPERRO-PC\Rayoelperro</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RhHSZy3v6zGffUoE3p3erDkZ8TXw23roOF/TDDUPKGA=</DigestValue></Reference></SignedInfo><SignatureValue>DOX5FhA+fJd2oLql/erbLNSk5C09XrPaqnNaDYhC+wVbY1oJn4VFvA8un5EFfQLtvNGgdsiIj1KIHUgNZTzrhKa04LVXaqi3m00sl5m2Wx2VYjCHKHs41yyRUx58RkbDEan87wOjwBSR3D3xQ14ROAsYemeRDWv8+WG9BYFS/jw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5UNaM3gjO2YX5w3qFSz/iQ8k47ccxMerOykikHGp9CInaT1+7Zqk+E3QagnHir6EoHy7NavP0lkl7/4FNRXQzuLk1K+v35O8Os3/TeKxCfmzDvJGaggLOeSHD5+6RK+89awV70e5TEykLxIf2F7UzFQwSYda2Q6ubF7/GQh4JOE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQU0gLJPJNCLlG2Dm42/Oj6TANBgkqhkiG9w0BAQsFADA/MT0wOwYDVQQDHjQAUgBBAFkATwBFAEwAUABFAFIAUgBPAC0AUABDAFwAUgBhAHkAbwBlAGwAcABlAHIAcgBvMB4XDTE3MDgyODE4NTUwNFoXDTE4MDgyOTAwNTUwNFowPzE9MDsGA1UEAx40AFIAQQBZAE8ARQBMAFAARQBSAFIATwAtAFAAQwBcAFIAYQB5AG8AZQBsAHAAZQByAHIAbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA5UNaM3gjO2YX5w3qFSz/iQ8k47ccxMerOykikHGp9CInaT1+7Zqk+E3QagnHir6EoHy7NavP0lkl7/4FNRXQzuLk1K+v35O8Os3/TeKxCfmzDvJGaggLOeSHD5+6RK+89awV70e5TEykLxIf2F7UzFQwSYda2Q6ubF7/GQh4JOECAwEAATANBgkqhkiG9w0BAQsFAAOBgQAsppUF/95UQSwBXDmY6QCJbmXaN2GXuKa9sZzabI2M52EMR03+dvyTRYuCQttq/CTHePzJRaJrKPq/38n3MSL7sjWRwNAz+pjMhR+q3rlSoizlIC1zvhOSWJXmfngSZHi9KD3bbF/wFgN/QfRs0HWrRWL5hg4ozSyR2VELgIR1fg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

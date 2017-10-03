@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="NoMoreViews.exe" version="1.0.0.1" publicKeyToken="0d892e76c36bde65" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NoMoreViews" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="NoMoreViews.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de UAC
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar Virtualización de archivos y Registro para compatibilidad con 
+         versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NoMoreViews.exe" size="220184">
+      <assemblyIdentity name="NoMoreViews" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>L8V7uzdKk2dU2jo6UUpZlBhAdJ41Gu3HhwQt72krppM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Z.ExtensionMethods.dll" size="191488">
+      <assemblyIdentity name="Z.ExtensionMethods" version="2.0.13.0" publicKeyToken="59B66D028979105B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cPufItZMdoX38qPTKdoJ0YafBQwti/BL/QfsRC1FcKw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>65ySgoRa7jccYGsM2ramGPc21ztzCIHz1z/1Rxk1yOc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NoMoreViews.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=RAYOELPERRO-PC\Rayoelperro" issuerKeyHash="e2d79ae3f8a5249eed1b8d5e850b559a6dbf6d8f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZMLynd90l1HYEfEbzVvJ7TB3FclNSn5tSDMy4kZ7C8s=</DigestValue></Reference></SignedInfo><SignatureValue>D+pXY/hovV4RnXIR88KnqMQyJRfCnGkE7o2xwxOPszR2Qgboqw/e//nYKMW4dKaLc8/aWweHe2us4rWNLPQmX6API1s4yeKQvofp9N7Qf11AO9nL2IPXt12poxoXMu8rgIXbbuDamdEjDkkYlE/3HoIQ0DnsfOLd94QS4krhhNo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5UNaM3gjO2YX5w3qFSz/iQ8k47ccxMerOykikHGp9CInaT1+7Zqk+E3QagnHir6EoHy7NavP0lkl7/4FNRXQzuLk1K+v35O8Os3/TeKxCfmzDvJGaggLOeSHD5+6RK+89awV70e5TEykLxIf2F7UzFQwSYda2Q6ubF7/GQh4JOE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cb0b7b46e23233486d7e4a4dc9157730edc95bcd1bf111d8519774df9df2c264" Description="" Url=""><as:assemblyIdentity name="NoMoreViews.exe" version="1.0.0.1" publicKeyToken="0d892e76c36bde65" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=RAYOELPERRO-PC\Rayoelperro</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3XLehA1bC9h8O+dVxV5JotltUVVAhTKRUeproeLlVvI=</DigestValue></Reference></SignedInfo><SignatureValue>EbpESduIGvsHsyXPg4vewr39rM4XmI8ppkJwHwo9tVP3pKkLFLFZkqdwolfzk5nOd1XG+vJ2wyRzajrf0qoahfVJQZWeToTBxe4z/Dzb3opNoWipDtMM7JtQySOwR8cCjkE0qdbPvFFCXI+99tacpGiVPMTluP3KfazVe5jczwo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5UNaM3gjO2YX5w3qFSz/iQ8k47ccxMerOykikHGp9CInaT1+7Zqk+E3QagnHir6EoHy7NavP0lkl7/4FNRXQzuLk1K+v35O8Os3/TeKxCfmzDvJGaggLOeSHD5+6RK+89awV70e5TEykLxIf2F7UzFQwSYda2Q6ubF7/GQh4JOE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQU0gLJPJNCLlG2Dm42/Oj6TANBgkqhkiG9w0BAQsFADA/MT0wOwYDVQQDHjQAUgBBAFkATwBFAEwAUABFAFIAUgBPAC0AUABDAFwAUgBhAHkAbwBlAGwAcABlAHIAcgBvMB4XDTE3MDgyODE4NTUwNFoXDTE4MDgyOTAwNTUwNFowPzE9MDsGA1UEAx40AFIAQQBZAE8ARQBMAFAARQBSAFIATwAtAFAAQwBcAFIAYQB5AG8AZQBsAHAAZQByAHIAbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA5UNaM3gjO2YX5w3qFSz/iQ8k47ccxMerOykikHGp9CInaT1+7Zqk+E3QagnHir6EoHy7NavP0lkl7/4FNRXQzuLk1K+v35O8Os3/TeKxCfmzDvJGaggLOeSHD5+6RK+89awV70e5TEykLxIf2F7UzFQwSYda2Q6ubF7/GQh4JOECAwEAATANBgkqhkiG9w0BAQsFAAOBgQAsppUF/95UQSwBXDmY6QCJbmXaN2GXuKa9sZzabI2M52EMR03+dvyTRYuCQttq/CTHePzJRaJrKPq/38n3MSL7sjWRwNAz+pjMhR+q3rlSoizlIC1zvhOSWJXmfngSZHi9KD3bbF/wFgN/QfRs0HWrRWL5hg4ozSyR2VELgIR1fg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

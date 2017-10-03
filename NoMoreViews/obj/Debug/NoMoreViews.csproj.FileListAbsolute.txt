@@ -1,0 +1,14 @@
+D:\Proyectos\VisualStudio\NoMoreViews\NoMoreViews\bin\Debug\NoMoreViews.exe.config
+D:\Proyectos\VisualStudio\NoMoreViews\NoMoreViews\bin\Debug\NoMoreViews.exe
+D:\Proyectos\VisualStudio\NoMoreViews\NoMoreViews\bin\Debug\NoMoreViews.pdb
+D:\Proyectos\VisualStudio\NoMoreViews\NoMoreViews\obj\Debug\NoMoreViews.csprojResolveAssemblyReference.cache
+D:\Proyectos\VisualStudio\NoMoreViews\NoMoreViews\obj\Debug\NoMoreViews.Properties.Resources.resources
+D:\Proyectos\VisualStudio\NoMoreViews\NoMoreViews\obj\Debug\NoMoreViews.csproj.GenerateResource.Cache
+D:\Proyectos\VisualStudio\NoMoreViews\NoMoreViews\obj\Debug\NoMoreViews.exe
+D:\Proyectos\VisualStudio\NoMoreViews\NoMoreViews\obj\Debug\NoMoreViews.pdb
+D:\Proyectos\VisualStudio\NoMoreViews\NoMoreViews\obj\Debug\NoMoreViews.Menu.resources
+D:\Proyectos\VisualStudio\NoMoreViews\NoMoreViews\obj\Debug\NoMoreViews.Password.resources
+D:\Proyectos\VisualStudio\NoMoreViews\NoMoreViews\bin\Debug\NoMoreViews.exe.manifest
+D:\Proyectos\VisualStudio\NoMoreViews\NoMoreViews\bin\Debug\NoMoreViews.application
+D:\Proyectos\VisualStudio\NoMoreViews\NoMoreViews\obj\Debug\NoMoreViews.exe.manifest
+D:\Proyectos\VisualStudio\NoMoreViews\NoMoreViews\obj\Debug\NoMoreViews.application
